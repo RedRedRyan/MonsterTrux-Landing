@@ -20,9 +20,12 @@ export default function Download() {
               </div>
               <h3 className="text-white font-bold text-xl mb-2">Windows</h3>
               <p className="text-white/80 mb-4">Now Available</p>
-              <button className="bg-white text-primary font-bold py-3 px-6 rounded-lg hover:bg-gray-100 transition w-full">
-                Download
-              </button>
+              <button 
+              className="bg-white text-primary font-bold py-3 px-6 rounded-lg hover:bg-gray-100 transition w-full"
+              onClick={() => window.open('https://drive.google.com/uc?export=download&id=13Z0KT3XK6Kvx5pPGVUVcDYE4jdzf8UOK', '_blank')}
+              >
+            Download
+            </button>
             </div>
 
             {/* Mac - Coming Soon */}
