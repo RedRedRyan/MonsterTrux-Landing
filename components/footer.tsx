@@ -57,7 +57,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-primary/30 pt-8 text-center text-gray-500">
-          <p>&copy; 2025 Monster Trux. All rights reserved.</p>
+          <p>&copy; 2025 Ystudios. All rights reserved.</p>
         </div>
       </div>
     </footer>

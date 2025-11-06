@@ -12,44 +12,46 @@ export default function Videos() {
         </div>
 
         {/* Videos Grid */}
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
           {/* Video 1 */}
           <div className="group">
-            <div className="relative overflow-hidden rounded-lg aspect-video bg-black border-2 border-primary/30 hover:border-primary transition">
-              <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/gDqxCAGX5KY?si=bfBmia8hvMSAgDpi"
-                title="YouTube video player"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerPolicy="strict-origin-when-cross-origin"
-                
-              ></iframe>
+            <div className="relative overflow-hidden rounded-lg aspect-video bg-black border-2 border-primary/30 hover:border-primary transition-colors">
+              <div className="w-full h-full">
+                <iframe
+                  src="https://www.youtube.com/embed/gDqxCAGX5KY?si=bfBmia8hvMSAgDpi"
+                  title="YouTube video player"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerPolicy="strict-origin-when-cross-origin"
+                  allowFullScreen
+                  className="w-full h-full"
+                />
+              </div>
             </div>
-            <h3 className="text-white font-bold text-lg mt-4">Epic Racing</h3>
-            <p className="text-gray-400">
+            <h3 className="text-white font-bold text-lg md:text-xl mt-4 md:mt-6">Epic Racing</h3>
+            <p className="text-gray-400 text-sm md:text-base mt-2">
               Experience high-speed monster truck racing
             </p>
           </div>
 
           {/* Video 2 */}
           <div className="group">
-            <div className="relative overflow-hidden rounded-lg aspect-video bg-black border-2 border-primary/30 hover:border-primary transition">
-              <iframe
-                width="100%"
-                height="100%"
-                src="https://youtube.com/embed/cdo7AuZM-UU"
-                title="Monster Trux Trailer"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-                className="w-full h-full"
-              />
+            <div className="relative overflow-hidden rounded-lg aspect-video bg-black border-2 border-primary/30 hover:border-primary transition-colors">
+              <div className="w-full h-full">
+                <iframe
+                  src="https://www.youtube.com/embed/cdo7AuZM-UU"
+                  title="Monster Trux Trailer"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  className="w-full h-full"
+                />
+              </div>
             </div>
-            <h3 className="text-white font-bold text-lg mt-4">
+            <h3 className="text-white font-bold text-lg md:text-xl mt-4 md:mt-6">
               Official Trailer
             </h3>
-            <p className="text-gray-400">Check out the full game trailer</p>
+            <p className="text-gray-400 text-sm md:text-base mt-2">
+              Check out the full game trailer
+            </p>
           </div>
         </div>
       </div>

@@ -17,7 +17,7 @@ export default function About() {
           <div>
             <h3 className="text-3xl font-bold text-white mb-4">Intense Action</h3>
             <p className="text-gray-300 text-lg leading-relaxed mb-6">
-              Monster Trux delivers heart-pounding action with destructible environments, realistic physics, and
+              Monster Trux delivers speedy action with different trucks, realistic physics, and
               jaw-dropping stunts. Every race is unique, every moment unforgettable.
             </p>
             <ul className="space-y-3">
