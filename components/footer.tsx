@@ -38,17 +38,17 @@ export default function Footer() {
             <h4 className="text-white font-bold mb-4">Follow Us</h4>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="text-gray-400 hover:text-primary transition">
+                <a href="https://x.com/YtekStudios" className="text-gray-400 hover:text-primary transition">
                   Twitter
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-400 hover:text-primary transition">
-                  Discord
+                <a href="https://github.com/RedRedRyan" className="text-gray-400 hover:text-primary transition">
+                  Github
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-400 hover:text-primary transition">
+                <a href="https://youtube.com/@0xredredryan?si=koMRNVZiyWLNOxjG" className="text-gray-400 hover:text-primary transition">
                   YouTube
                 </a>
               </li>
