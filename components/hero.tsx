@@ -1,6 +1,13 @@
 "use client"
 
 export default function Hero() {
+  const scrollToSection = (sectionId: string): void => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
+
   return (
     <section id="hero" className="pt-32 pb-20 px-4 bg-black min-h-screen flex items-center">
       <div className="max-w-7xl mx-auto w-full">
@@ -16,12 +23,16 @@ export default function Hero() {
               Experience the ultimate monster truck racing game. Massive trucks. Massive action. Massive fun.
             </p>
             <div className="flex gap-4 pt-4">
-              <button className="bg-primary hover:bg-primary/80 text-white font-bold py-3 px-8 rounded-lg transition text-lg">
+              <button 
+              onClick={() => scrollToSection("download")}
+              className="bg-primary hover:bg-primary/80 text-white font-bold py-3 px-8 rounded-lg transition text-lg">
                 Download Now
               </button>
+              <a href="https://youtu.be/gDqxCAGX5KY" target="_blank" rel="noopener noreferrer">
               <button className="border-2 border-primary text-primary hover:bg-primary hover:text-white font-bold py-3 px-8 rounded-lg transition text-lg">
                 Watch Trailer
               </button>
+            </a>
             </div>
           </div>
 
