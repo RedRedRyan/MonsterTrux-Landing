@@ -63,7 +63,7 @@ export default function Download() {
             </div>
           </div>
 
-          <p className="text-white/80">Free to play • 800 MB download • Available worldwide</p>
+          <p className="text-white/80">Free to play • 150 MB download • Available worldwide</p>
         </div>
       </div>
     </section>
