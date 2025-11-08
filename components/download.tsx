@@ -22,7 +22,7 @@ export default function Download() {
               <p className="text-white/80 mb-4">Now Available</p>
               <button 
               className="bg-white text-primary font-bold py-3 px-6 rounded-lg hover:bg-gray-100 transition w-full"
-              onClick={() => window.open('https://drive.google.com/file/d/1ugNXEAnyqxb1ui6YXPr-lx0lJfcI3NwX/view?usp=drive_link', '_blank')}
+              onClick={() => window.open('https://drive.google.com/file/d/1K3d4c1r16DIkVJXEgkByLJLEr1_Fiymq/view?usp=drive_link', '_blank')}
               >
             Download
             </button>
