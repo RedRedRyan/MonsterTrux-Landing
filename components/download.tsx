@@ -28,7 +28,7 @@ export default function Download() {
               <p className="text-white/90 mb-4 sm:mb-6 text-center text-base sm:text-lg">Now Available</p>
               <button 
                 className="bg-gradient-to-r from-white to-gray-100 text-primary font-bold py-3 sm:py-4 px-6 sm:px-8 rounded-lg hover:from-gray-100 hover:to-white transition w-full text-base sm:text-lg shadow-lg"
-                onClick={() => window.open('https://drive.google.com/file/d/1KbNX_9oQIJqgBsJipT13icCIWFA2adSs/view?usp=drive_link', '_blank')}
+                onClick={() => window.open('https://drive.google.com/file/d/1KbNX_9oQIJqgBsJipT13icCIWFA2adSs/view', '_blank')}
               >
                 Download Now
               </button>
