@@ -28,14 +28,14 @@ export default function Download() {
               <p className="text-white/90 mb-4 sm:mb-6 text-center text-base sm:text-lg">Now Available</p>
               <button 
                 className="bg-gradient-to-r from-white to-gray-100 text-primary font-bold py-3 sm:py-4 px-6 sm:px-8 rounded-lg hover:from-gray-100 hover:to-white transition w-full text-base sm:text-lg shadow-lg"
-                onClick={() => window.open('https://drive.google.com/file/d/1zbZJAX3GbqaT5WRBfgHe5KmEkP-IvjTq/view?usp=drive_link', '_blank')}
+                onClick={() => window.open('https://drive.google.com/file/d/1rQisHEv19U_r04AWVXPTCx1s0UybSUak/view?usp=drive_link', '_blank')}
               >
                 Download Now
               </button>
             </div>
           </div>
 
-          <p className="text-white/80 text-sm sm:text-base relative">Free to play • 150 MB download • Available worldwide</p>
+          <p className="text-white/80 text-sm sm:text-base relative">Free to play • 100 MB download • Available worldwide</p>
         </div>
       </div>
     </section>
