@@ -28,9 +28,9 @@ export default function Hero() {
               className="bg-primary hover:bg-primary/80 text-white font-bold py-3 px-8 rounded-lg transition text-lg">
                 Download Now
               </button>
-              <a href="https://youtu.be/gDqxCAGX5KY" target="_blank" rel="noopener noreferrer">
+              <a href="https://thirdweb.com/polygon-amoy-testnet/0xCE3B55cFe34Dd19e5262B9b72f920A8B4E41987A" target="_blank" rel="noopener noreferrer">
               <button className="border-2 border-primary text-primary hover:bg-primary hover:text-white font-bold py-3 px-8 rounded-lg transition text-lg">
-                Watch Trailer
+                Check Cars
               </button>
             </a>
             </div>
